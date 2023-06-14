@@ -33,9 +33,9 @@ const Header = (props: Props) => {
             {/* <Routes>
               <Route path='/' element={<SearchBox />} />{' '}
             </Routes> */}
-            <SearchBox/>
             <Nav className='ms-auto'>
-              <LinkContainer to='/cart'>
+            <SearchBox/>
+              <LinkContainer to='/cart' className='ms-2'>
                 <Nav.Link>
                   <i className='fas fa-shopping-cart me-1' /> Cart
                 </Nav.Link>
